@@ -1,0 +1,80 @@
+
+
+main{
+	width: 360px;
+	
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+header{
+	color: white;
+	text-align: center;
+	height: 300px;
+	
+}
+header img{
+	margin-top: 20px;
+	height: 140px;
+}
+header h2{
+	margin: 20px 0;
+	font-size: 30px;
+}
+header p{
+	font-size: 22px;
+}
+#content{
+	background-color: white;
+}
+#buttons{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
+#buttons img{
+	margin: 0 15px;
+}
+#volum{
+text-align: center;
+}
+#volum input{
+width: 100%;
+}
+input[type="range" i] {/*للتعديل علي شريط الصوت*/
+-webkit-appearance: none;
+background: rgb(221, 167, 167);
+height: 4px;
+margin: 0%;
+}
+ input[type=range]::-webkit-slider-thumb{ /*للتعديل علي شريط الصوت*/
+-webkit-appearance: none;
+background: rgb(236, 46, 46);
+height: 20px;
+width: 20px;
+border-radius: 50%;
+}
+h2{
+	margin: 15px 0px;
+}
+#color{
+text-align: center;
+margin-top: 20px;
+}
+#color button{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+#color1{
+	background: #73cbcb;
+}
+#color2{
+	background:  #ddb682;
+}
+#color3{
+	background: linear-gradient(to right, rgb(173 115 203),rgb(118 58 30));
+}
+#color4{
+background: linear-gradient(to right, rgb(219 29 99),  rgb(31 84 9));
+}
